@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
+from surprise import Dataset, Reader, KNNWithMeans, SVD 
 from scipy.sparse import csr_matrix
 import os
 import pickle
